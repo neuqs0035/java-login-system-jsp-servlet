@@ -1,0 +1,16 @@
+database name : javaloginsys 
+    
+    CREATE DATABASE javaloginsys;
+
+    table1 name logininfo :
+    column1 name username , datatype = varchar ( 255 )
+    column2 name email , datatype = varchar ( 255 )
+    column3 name password , datatype = varchar ( 255 )
+    
+        CREATE TABLE logininfo (
+            username VARCHAR(255) NOT NULL,
+            email VARCHAR(255) NOT NULL,
+            password VARCHAR(255) NOT NULL
+        );
+        
+
