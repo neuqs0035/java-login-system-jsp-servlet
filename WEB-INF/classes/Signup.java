@@ -59,7 +59,7 @@ public class Signup extends HttpServlet{
             }
         }
         catch(Exception e){
-            out.print(e.getMessage());
+            redirectmessage(out, "Error Occured " + e.getMessage(), "index.jsp");
         }
     }
 

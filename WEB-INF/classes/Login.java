@@ -43,7 +43,7 @@ public class Login extends HttpServlet {
 
         }
         catch (Exception e) {
-            out.print(e.getMessage());
+            redirectmessage(out, "Error Occured " + e.getMessage(), "index.jsp");
         }
 
         out.print("</body></html>");
