@@ -1,3 +1,16 @@
+<%
+  Cookie ck[] = request.getCookies();
+  
+  for(Cookie c:ck){
+    if(!c.getName().equals("logincookie")){
+      
+      %>
+      <script>alert("Page Access Denied : Aready Loged In"); window.location.href="index.jsp"</script>
+      <%
+    }
+  }
+%>
+
 <!doctype html>
 <html lang="en">
   <head>
