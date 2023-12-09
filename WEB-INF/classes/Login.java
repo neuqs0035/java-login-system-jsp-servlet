@@ -31,6 +31,7 @@ public class Login extends HttpServlet {
 
                 if (password_from_database.equals(password)) {
                     Cookie c = new Cookie("logincookie", details.getString(1));
+                    c.setMaxAge( 60 * 60 * 2);
                     response.addCookie(c);
 
                     redirectmessage(out, "Login Successful", "index.jsp");
