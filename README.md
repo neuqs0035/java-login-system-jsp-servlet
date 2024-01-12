@@ -27,7 +27,7 @@ Before running the script, ensure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/bhavya416/java-login-system-jsp-servlet.git
+   git clone https://github.com/neuqs0035/java-login-system-jsp-servlet.git
    cd java-login-system-jsp-servlet/WEB-INF/classes
    ```
 2. **Compile All Servlet Java File**
