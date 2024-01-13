@@ -1,7 +1,7 @@
 # Java Login System with JSP and Servlets
 
 ## Overview
-A 🔐 secure authentication solution using Java, JSP, and Servlets for seamless user login. Leverage the power of dynamic web pages to enhance the user experience. 🚀💻 
+JSP Servlet website for effortless text encryption and decryption using innovative ASCII value modification. Secure your messages with a simple and intuitive interface! 🔒🌐
 
 ## Table of Contents
 - [Requirements](#requirements)
@@ -20,15 +20,15 @@ Before running the script, ensure you have the following installed:
 
 ## Note
 
-- 🗒️ Database details are in the file DATABASE.txt with queries.
+- The The Text Must Be Greater Than 4 Character Length For Decrypt
 
 ## How to Run
 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/neuqs0035/java-login-system-jsp-servlet.git
-   cd java-login-system-jsp-servlet/WEB-INF/classes
+   git clone https://github.com/neuqs0035/jsp-servlet-text-encrypt-decrypt.git
+   cd jsp-servlet-text-encrypt-decrypt/WEB-INF/classes
    ```
 2. **Compile All Servlet Java File**
    ```bash
@@ -41,10 +41,10 @@ Before running the script, ensure you have the following installed:
       
    If Tomcat Port Number Is 9090
    ```bash
-   http://localhost:9090/java-login-system-jsp-servlet/
+   http://localhost:9090/jsp-servlet-text-encrypt-decrypt/
    ```
    
    If Tomcat Port Number Is 8080
     ```bash
-   http://localhost:8080/java-login-system-jsp-servlet/
+   http://localhost:8080/jsp-servlet-text-encrypt-decrypt/
    ```
